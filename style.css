@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    color: rgba(0, 0, 0, 0.349);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+#bgimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 234);
+    position: absolute;
+    top: 50%;
+    font-size: 70px;
+    cursor: pointer;
+}
+h1:hover{
+    font-size: 100px;
+    color: teal;
+    transition: all 0.5s ease-in-out;
+}
+main{
+    margin-top: 70%;
+}
+.receitas{
+    width: 500px;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px 20px rgb(0, 0, 0);
+    transition: 1s;
+    color: #000;
+    background-color: rgba(0, 255, 13, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.receitas:hover{
+    background-color: rgba(255, 230, 0, 0.521);
+    cursor: pointer;
+}
+
+h2{
+   margin-left: 30%;
+   width: 150%;
+}
+
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
